@@ -16,5 +16,9 @@ step 8 : wget http://mirrors.estointernet.in/apache/maven/maven-3/3.6.1/binaries
 step 9 : vi ~/.bash_profile  
         M2_HOME=/opt/maven/apache-maven-3.6.1 
         M2=$M2_HOME/bin  
-         PATH=<Existing_PATH>:$M2_HOME:$M2           
+         PATH=<Existing_PATH>:$M2_HOME:$M2  
+step 10 : Setup JAVA_HOME at ~/.bash_profile       
+          find java path (find / -name jvm) 
+	
+         
           
