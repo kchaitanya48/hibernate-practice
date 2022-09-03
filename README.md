@@ -34,9 +34,9 @@ docker stop tomcat-container
 
 docker ps -a
 
-docker build -t mytomcat .
-docker images
-docker ps
+docker build -t mytomcat . 
+docker images 
+docker ps 
 
 
 
