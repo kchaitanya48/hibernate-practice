@@ -30,5 +30,11 @@ docker run -d --name tomcat-container 8085:8080 -p  tomcat
 
 docker exec -it tomcat-container  /bin/bash 
 
+docker stop tomcat-container
+
+docker ps -a
+docker images
+docker ps
+
 
 
