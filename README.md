@@ -21,4 +21,14 @@ step 10 : Setup JAVA_HOME at ~/.bash_profile
           find java path (find / -name jvm) 
 	
          
-          
+DOCKER
+-------------
+
+
+
+docker run -d --name tomcat-container 8085:8080 -p  tomcat 
+
+docker exec -it tomcat-container  /bin/bash 
+
+
+
