@@ -33,6 +33,10 @@ docker exec -it tomcat-container  /bin/bash
 
 docker stop tomcat-container
 
+docker rm container-id
+
+docker rmi image-id
+
 docker ps -a
 
 docker images 
