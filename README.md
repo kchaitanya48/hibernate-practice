@@ -44,4 +44,23 @@ docker images
 docker ps 
 
 
+CREATE DOCKER ENVIORNMENT LINUX
+---------------------------------
+
+
+cat  /etc/passwd --> gives the user details 
+
+cat /etc/groups   --> gives the group details 
+
+useradd dockeradmin   --> adding new user - dockeradmin  
+
+passwd dockeradmin    -> adding password for dockeradmin  
+
+vi /etc/ssh/ssh_config  -> find password key by using /password at right corner of vi and enable password mode  
+
+services sshd reload   --> reload or restart the services  
+
+
+
+
 
