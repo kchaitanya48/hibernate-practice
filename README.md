@@ -25,8 +25,9 @@ DOCKER
 -------------
 
 
+docker build -t myimage . 
 
-docker run -d --name tomcat-container 8085:8080 -p  tomcat 
+docker run -d --name myimage-container -p 8081:8778 myimage
 
 docker exec -it tomcat-container  /bin/bash 
 
@@ -34,8 +35,8 @@ docker stop tomcat-container
 
 docker ps -a
 
-docker build -t mytomcat . 
 docker images 
+
 docker ps 
 
 
